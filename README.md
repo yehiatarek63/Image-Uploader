@@ -16,7 +16,7 @@ This form takes an image and a title and stores this information in a Json file.
 
 https://github.com/yehiatarek63/Image-Uploader/assets/94568731/7b7ee295-24f2-4188-910e-48ea303d78f8
 
-## Here are screenshots of server-side validations through postman:
+## Here are screenshots of server-side validations through Postman:
 ![image](https://github.com/yehiatarek63/Image-Uploader/assets/94568731/614a46fa-1c61-43c6-bf77-ffe1e40423d5)
 ![image](https://github.com/yehiatarek63/Image-Uploader/assets/94568731/197c993b-4ba8-49a4-8e83-5df346965620)
 ![image](https://github.com/yehiatarek63/Image-Uploader/assets/94568731/8095e99d-18b2-452d-ada5-378ecc314b05)
