@@ -56,7 +56,7 @@ app.MapPost("/", async (HttpContext context) =>
     allImages.Add(newImage);
     string allImagesJson = JsonSerializer.Serialize(allImages, options);
     await File.WriteAllTextAsync(jsonPath, allImagesJson);
-    return Results.RedirectToRoute("picture", newImage);
+    return Results.RedirectToRoute("picture", new { id = newImage.Id });
 });
 
 app.MapGet("/pictures/{id}", async (string id, HttpContext context) =>
